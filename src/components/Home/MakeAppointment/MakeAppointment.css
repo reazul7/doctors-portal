@@ -1,0 +1,31 @@
+.make-appointment button{
+    padding: 5px 10px;
+    font-weight: bold;
+    background-image: linear-gradient(to right, #18D3AE, #10CFE2);
+    border: none;
+}
+.make-appointment{
+    background-image: url(../../../images/appointment-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 420px;
+    background-position: center center;
+}
+.make-appointment::before{
+    content: " ";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #41485C;
+    opacity: .9;
+    top: 0;
+}
+.make-appointment img{
+    height: 550px;
+    transform: translateY(-130px);
+}
+.make-appointment h5{
+    color: #6ACECE;
+}

@@ -1,0 +1,9 @@
+.service-detail {
+    text-align: center;
+}
+.service-detail img{
+    height: 50px;
+}
+.service-detail p{
+    margin: auto;    
+}
